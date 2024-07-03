@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.custom-navbar-brand {
+  color: white; /* Mengatur warna teks menjadi putih */
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
