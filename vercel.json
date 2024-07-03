@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "src": "/api/news",
+        "dest": "https://newsapi.org/v2/everything?q=earthquake OR flood OR hurricane OR wildfire OR landslide&apiKey=64ba83de889d459e87df3521ea73f776",
+        "methods": ["GET"],
+        "headers": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      }
+    ]
+  }
+  
