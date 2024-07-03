@@ -12,7 +12,7 @@ export const NewsProvider = ({ children }) => {
     const fetchNews = async () => {
       try {
         const response = await axios.get(
-          "https://newsapi.org/v2/everything?q=earthquake OR flood OR hurricane OR wildfire OR landslide&apiKey=64ba83de889d459e87df3521ea73f776"
+          "https://newsapi.org/v2/everything?q=earthquake OR flood OR hurricane OR wildfire OR landslide&apiKey=ba03e713175440e593eb1ab0107d138b"
         );
         setNews(response.data.articles);
         setLoading(false);
