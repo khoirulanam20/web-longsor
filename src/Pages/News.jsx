@@ -34,6 +34,7 @@ const NewsList = () => {
                   src={article.urlToImage}
                   className="card-img-top"
                   alt={article.title}
+                  style={{ height: "250px", objectFit: "cover" }}
                 />
               )}
               <div className="card-body">
